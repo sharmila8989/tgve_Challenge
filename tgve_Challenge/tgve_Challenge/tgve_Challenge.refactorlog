@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Operations Version="1.0" xmlns="http://schemas.microsoft.com/sqlserver/dac/Serialization/2012/02">
+  <Operation Name="Rename Refactor" Key="f1569acb-2628-44d1-9288-2b46d137b595" ChangeDateTime="06/22/2018 00:36:53">
+    <Property Name="ElementName" Value="[dbo].[Tour].[Id]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[Tour]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="tourId" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="e7e10811-0c47-4ec4-8139-797bb4182326" ChangeDateTime="06/22/2018 00:41:50">
+    <Property Name="ElementName" Value="[dbo].[Client].[Id]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[Client]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="clientId" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="d3b34877-1405-4411-b489-b108b47ed7ce" ChangeDateTime="06/22/2018 00:45:36">
+    <Property Name="ElementName" Value="[dbo].[TourEvent].[Id]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[TourEvent]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="eventMonth" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="dacbe130-1379-4399-ae5b-d20f5c4a253d" ChangeDateTime="06/22/2018 00:58:48">
+    <Property Name="ElementName" Value="[dbo].[Booking].[Id]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[Booking]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="bookingDate" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="6655f806-bab7-4b92-8478-d46a7b630b0d" ChangeDateTime="06/22/2018 01:02:28">
+    <Property Name="ElementName" Value="[dbo].[Booking].[eventYear]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[Booking]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="eventDate" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="5812bf88-9983-4dfb-9406-d9443123fd3d" ChangeDateTime="06/22/2018 01:04:26">
+    <Property Name="ElementName" Value="[dbo].[Booking].[eventDate]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[Booking]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="eventDay" />
+  </Operation>
+</Operations>
