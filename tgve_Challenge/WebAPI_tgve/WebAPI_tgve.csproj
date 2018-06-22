@@ -205,7 +205,11 @@
     <Compile Include="COLOURTYPE.cs">
       <DependentUpon>tgve_Model.tt</DependentUpon>
     </Compile>
+    <Compile Include="Controllers\BookingsController.cs" />
+    <Compile Include="Controllers\ClientsController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
+    <Compile Include="Controllers\TourEventsController.cs" />
+    <Compile Include="Controllers\ToursController.cs" />
     <Compile Include="Controllers\ValuesController.cs" />
     <Compile Include="Customer.cs">
       <DependentUpon>tgve_Model.tt</DependentUpon>
