@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="e7de65894f9443c4917f7948cb1c191a" Name="Diagram1">
+        <EntityTypeShape EntityType="mySampleDatabaseModel.C__RefactorLog" Width="1.5" PointX="0.75" PointY="11.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="mySampleDatabaseModel.Account" Width="1.5" PointX="10.75" PointY="1" IsExpanded="true" />
+        <EntityTypeShape EntityType="mySampleDatabaseModel.Author" Width="1.5" PointX="10.75" PointY="9.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="mySampleDatabaseModel.Book" Width="1.5" PointX="13" PointY="9" IsExpanded="true" />
+        <EntityTypeShape EntityType="mySampleDatabaseModel.Booking" Width="1.5" PointX="10.25" PointY="5" IsExpanded="true" />
+        <EntityTypeShape EntityType="mySampleDatabaseModel.Category" Width="1.5" PointX="0.75" PointY="8.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="mySampleDatabaseModel.Client" Width="1.5" PointX="8" PointY="2.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="mySampleDatabaseModel.COLOURTYPE" Width="1.5" PointX="5.75" PointY="9.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="mySampleDatabaseModel.Customer" Width="1.5" PointX="3" PointY="1" IsExpanded="true" />
+        <EntityTypeShape EntityType="mySampleDatabaseModel.Log" Width="1.5" PointX="13" PointY="1" IsExpanded="true" />
+        <EntityTypeShape EntityType="mySampleDatabaseModel.MOVIE" Width="1.5" PointX="8" PointY="9" IsExpanded="true" />
+        <EntityTypeShape EntityType="mySampleDatabaseModel.Order" Width="1.5" PointX="5.25" PointY="1.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="mySampleDatabaseModel.Product" Width="1.5" PointX="3" PointY="8.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="mySampleDatabaseModel.RATING" Width="1.5" PointX="5.75" PointY="12.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="mySampleDatabaseModel.Region" Width="1.5" PointX="0.75" PointY="1.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="mySampleDatabaseModel.Segment" Width="1.5" PointX="0.75" PointY="5.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="mySampleDatabaseModel.Shipping" Width="1.5" PointX="3" PointY="5.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="mySampleDatabaseModel.Student" Width="1.5" PointX="10.75" PointY="12" IsExpanded="true" />
+        <EntityTypeShape EntityType="mySampleDatabaseModel.Tour" Width="1.5" PointX="5.75" PointY="5.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="mySampleDatabaseModel.TourEvent" Width="1.5" PointX="8" PointY="5.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="mySampleDatabaseModel.database_firewall_rules" Width="1.5" PointX="2.75" PointY="11.75" IsExpanded="true" />
+        <AssociationConnector Association="mySampleDatabaseModel.FK_ORIGACCT" ManuallyRouted="false" />
+        <AssociationConnector Association="mySampleDatabaseModel.FK_RECACCT" ManuallyRouted="false" />
+        <AssociationConnector Association="mySampleDatabaseModel.FK_BOOK_AUTHOR" ManuallyRouted="false" />
+        <AssociationConnector Association="mySampleDatabaseModel.FK_BOOK_STUDENT" ManuallyRouted="false" />
+        <AssociationConnector Association="mySampleDatabaseModel.FK_booking" ManuallyRouted="false" />
+        <AssociationConnector Association="mySampleDatabaseModel.FK_bookingClientId" ManuallyRouted="false" />
+        <AssociationConnector Association="mySampleDatabaseModel.FK_Category" ManuallyRouted="false" />
+        <AssociationConnector Association="mySampleDatabaseModel.FK_MOVIE_COLOURTYPE" ManuallyRouted="false" />
+        <AssociationConnector Association="mySampleDatabaseModel.FK_CUSTOMER" ManuallyRouted="false" />
+        <AssociationConnector Association="mySampleDatabaseModel.FK_Region" ManuallyRouted="false" />
+        <AssociationConnector Association="mySampleDatabaseModel.FK_Segment" ManuallyRouted="false" />
+        <AssociationConnector Association="mySampleDatabaseModel.FK_MOVIE_RATING" ManuallyRouted="false" />
+        <AssociationConnector Association="mySampleDatabaseModel.FK_PRODUCT" ManuallyRouted="false" />
+        <AssociationConnector Association="mySampleDatabaseModel.FK_SHIPPING" ManuallyRouted="false" />
+        <AssociationConnector Association="mySampleDatabaseModel.FK_tourId" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
