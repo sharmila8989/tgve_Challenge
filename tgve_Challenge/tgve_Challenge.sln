@@ -7,6 +7,8 @@ Project("{00D1A9C2-B5F0-4AF3-8072-F6C62B433612}") = "tgve_Challenge", "tgve_Chal
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebAPI_tgve", "WebAPI_tgve\WebAPI_tgve.csproj", "{2AE86112-8475-40CB-A828-63E9F1E53ECA}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "tgve_App", "tgve_App\tgve_App.csproj", "{1C59DE65-7E06-4787-A12C-851EBC690685}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -23,6 +25,10 @@ Global
 		{2AE86112-8475-40CB-A828-63E9F1E53ECA}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2AE86112-8475-40CB-A828-63E9F1E53ECA}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2AE86112-8475-40CB-A828-63E9F1E53ECA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1C59DE65-7E06-4787-A12C-851EBC690685}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1C59DE65-7E06-4787-A12C-851EBC690685}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1C59DE65-7E06-4787-A12C-851EBC690685}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1C59DE65-7E06-4787-A12C-851EBC690685}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
