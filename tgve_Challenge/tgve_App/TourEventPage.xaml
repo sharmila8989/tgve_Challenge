@@ -1,0 +1,107 @@
+﻿<Page x:Class="tgve_App.TourEventPage"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:tgve_App"
+      mc:Ignorable="d" 
+      d:DesignHeight="450" d:DesignWidth="800"
+      Title="TourEventPage" ShowsNavigationUI="False" >
+ 
+
+    
+
+         
+        <Grid Background="White">
+            <Grid.RowDefinitions>
+            <RowDefinition/>
+            <RowDefinition Height="8*" />
+            </Grid.RowDefinitions>
+        <TextBlock FontSize="26" HorizontalAlignment="Center" FontWeight="Bold">TGVE MAnagement System</TextBlock>
+        <TabControl TabStripPlacement="Left" Grid.Column="0" Grid.Row="1">
+
+            <TabItem Header="Tour Events" Height="50" Width="150">
+                <ScrollViewer VerticalScrollBarVisibility="Visible">
+                <Grid>
+                    <Grid.RowDefinitions>
+                        <RowDefinition/>
+                        <RowDefinition Height="3*"/>
+                        <RowDefinition Height="2*"/>
+                    </Grid.RowDefinitions>
+                        <StackPanel Grid.Row="0" Orientation="Horizontal" Margin="10">
+                            <Label>To open all tour events click on view all button --> </Label>   
+                        <Button Name="bttnViewTourEvents" Width="50" Height="30" Click="bttnViewTourEvents_Click" Margin="20,0,0,0"> View All</Button>
+                        </StackPanel>
+                        <ListView Margin="10" Name="lvTourEvents" Grid.Row="1">
+                        <ListView.View>
+                            <GridView>
+                                <GridViewColumn Header="Tour Id" Width="120" DisplayMemberBinding="{Binding tourId}" />
+                                <GridViewColumn Header="Event Month" Width="120" DisplayMemberBinding="{Binding eventMonth}" />
+                                <GridViewColumn Header="Event Day" Width="120" DisplayMemberBinding="{Binding eventDay}" />
+                                <GridViewColumn Header="Event Year" Width="120" DisplayMemberBinding="{Binding eventYear}" />
+                                <GridViewColumn Header="Event Fee" Width="120" DisplayMemberBinding="{Binding eventFee}" />
+
+                                <GridViewColumn Header="Booking" Width="120">
+                                    <GridViewColumn.CellTemplate>
+                                        <DataTemplate>
+                                            <Button Width="50" Height="30" Name="bttnViewBookins" Click="bttnViewBookins_Click">View</Button>
+                                        </DataTemplate>
+                                    </GridViewColumn.CellTemplate>
+                                </GridViewColumn>
+                            </GridView>
+                        </ListView.View>
+                    </ListView>
+                </Grid>
+                </ScrollViewer>
+            </TabItem>
+            <TabItem Header="Manage Clients" Height="50" Width="150">
+                <ScrollViewer VerticalScrollBarVisibility="Visible">
+                    <Grid>
+                        <Grid.RowDefinitions>
+                            <RowDefinition/>
+                            <RowDefinition Height="3*"/>
+                            <RowDefinition />
+
+                            <RowDefinition Height="2*"/>
+                        </Grid.RowDefinitions>
+                        <StackPanel Grid.Row="0" Orientation="Horizontal" Margin="10">
+                            <Label>To open all tour events click on view all button --></Label>
+                            <Button Name="bttnViewClients" Width="50" Height="30"  Margin="20,0,0,0" Click="bttnViewClients_Click">View All</Button>
+                        </StackPanel>
+                        <ListView Margin="10" Name="lvClients" Grid.Row="1">
+                            <ListView.View>
+                                <GridView>
+                                    <GridViewColumn Header="Tour Id" Width="120" DisplayMemberBinding="{Binding clientId}" />
+                                    <GridViewColumn Header="Event Month" Width="120" DisplayMemberBinding="{Binding clientGivenName}" />
+                                    <GridViewColumn Header="Event Day" Width="120" DisplayMemberBinding="{Binding clientSurname}" />
+                                    <GridViewColumn Header="Event Year" Width="120" DisplayMemberBinding="{Binding clientGender}" />
+                                    <GridViewColumn Header="Event Fee" Width="120" DisplayMemberBinding="{Binding Bookings}" />
+
+
+                                </GridView>
+                            </ListView.View>
+                        </ListView>
+                        <StackPanel Grid.Row="2" Orientation="Horizontal" Margin="200,0,0,20" >
+                            <Button Width="50" Height="30" Margin="20,0,0,0">Add</Button>
+                            <Button Width="50" Height="30" Margin="20,0,0,0">Delete</Button>
+                            <Button Width="50" Height="30" Margin="20,0,0,0">Search</Button>
+                            
+                        </StackPanel>
+                        <StackPanel Grid.Row="3" Orientation="Vertical" Margin="20,0,0,20" >
+                            <Button Width="50" Height="30" Margin="20,0,0,0">Add</Button>
+                            <Button Width="50" Height="30" Margin="20,0,0,0">Delete</Button>
+                            <Button Width="50" Height="30" Margin="20,0,0,0">Search</Button>
+
+                        </StackPanel>
+                    </Grid>
+                </ScrollViewer>
+
+            </TabItem>
+
+        </TabControl>
+
+    </Grid>
+   
+        
+   
+</Page>

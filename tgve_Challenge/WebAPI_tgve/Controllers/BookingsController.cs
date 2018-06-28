@@ -13,7 +13,9 @@ using WebAPI_tgve;
 
 namespace WebAPI_tgve.Controllers
 {
-    public class BookingsController : ApiController
+    public class 
+        
+        BookingsController : ApiController
     {
         private mySampleDatabaseEntities db = new mySampleDatabaseEntities();
 

@@ -22,7 +22,8 @@ namespace WebAPI_tgve.Controllers
         {
             return db.TourEvents;
         }
-
+       // public static List<TourEvent> listTourEvents = new List<TourEvent>();
+       
         // GET: api/TourEvents/5
         [ResponseType(typeof(TourEvent))]
         public async Task<IHttpActionResult> GetTourEvent(string id)
